@@ -78,10 +78,10 @@ nav a{
 .header{
     background-color: #FFF8F3;;
     background-image: url("../images/header_bg.png"), url("../images/developer.png");
-    height: 800px;
+    height: 837px;
     background-repeat: no-repeat;
-    background-position: bottom right, top left;
-    /* background-size:contain; */
+    background-position: bottom right, center left;
+    background-size: auto;
 }
 .banner{
     padding: 30px 30px 0px 150px;
@@ -93,7 +93,8 @@ nav a{
     max-width: 1000px;
 }
 .banner .profile{
-    width: 450px;
+    width: 580px;
+    margin-top: 9px;
 }
 .banner-greeting{
     font-size: 45px;
