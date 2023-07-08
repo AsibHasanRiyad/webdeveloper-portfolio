@@ -78,7 +78,7 @@ nav a{
 .header{
     background-color: #FFF8F3;;
     background-image: url("../images/header_bg.png"), url("../images/developer.png");
-    height: 837px;
+    height: 800px;
     background-repeat: no-repeat;
     background-position: bottom right, center left;
     background-size: auto;
@@ -93,8 +93,7 @@ nav a{
     max-width: 1000px;
 }
 .banner .profile{
-    width: 580px;
-    margin-top: 9px;
+    width: 555px;
 }
 .banner-greeting{
     font-size: 45px;
