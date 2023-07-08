@@ -14,9 +14,16 @@ body{
     border-radius: 5px;
     background: #FD6E0A;   
     color: white;
-    padding: 18px 35px;
+    padding: 13px 30px;
     border-style: none;     
 
+}
+.button{
+    display: flex;
+}
+.btn-primary:hover{
+    background-color: #000000;
+    cursor: pointer;
 }
 .section-title{
     color: #181818;
@@ -40,7 +47,15 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0px 200px;
+    margin: 0px 150px;
+}
+.btn-top{
+    margin-top: 20px;
+}
+.nav-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .nav-title{
     color: #181818;
@@ -48,9 +63,7 @@ nav{
     font-weight: 700 !important;
 }
 nav>ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   
 }
 nav li{
     list-style: none;
@@ -64,9 +77,11 @@ nav a{
 /* header related style */
 .header{
     background-color: #FFF8F3;;
-    background-image: url("../images/header_bg.png");
+    background-image: url("../images/header_bg.png"), url("../images/developer.png");
+    height: 800px;
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right, top left;
+    /* background-size:contain; */
 }
 .banner{
     padding: 30px 30px 0px 150px;
@@ -75,10 +90,10 @@ nav a{
     justify-content: space-between;
 }
 .banner-content{
-    max-width: 500px;
+    max-width: 1000px;
 }
 .banner .profile{
-    width: 500px;
+    width: 450px;
 }
 .banner-greeting{
     font-size: 45px;
@@ -226,7 +241,6 @@ footer{
     justify-content: space-between;
     gap: 100px;
 }
-
 .footer-column{
     width: 50%;
 }
@@ -238,6 +252,7 @@ footer{
     text-align: center;
     font-size: 26px;
     font-weight: 700;
+    text-align: left;
 }
 .contact-form input ,textarea{
     width: 460px;
@@ -252,5 +267,4 @@ footer{
     border: none;
     border-radius: 5px;
     background-color: white;
-
 }
